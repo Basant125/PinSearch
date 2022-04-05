@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+.post{
+    height: 180px !important;
+    padding: 10px 5px;
+    background-color: #F8F8F8 !important;
+    border-bottom: 3px solid #130f40;
+    transition: all linear 0.5s;
+    cursor: pointer;
+}
+
+.post:hover{
+    transition: all 0.5s;
+    transform: scale(1.02);
+}
+
+.post-heading{
+    width: 100%;
+    text-align: center;
+}
+
+.text{
+  font-family: "Open Sans" , sans-serif !important;
+  font-size: 14px !important;
+  font-weight : 600 !important;
+  text-transform: uppercase;
+  color:#30336b ;
+}
+
+.text-name{
+    font-family: "Open Sans",
+    sans-serif !important;
+    color: crimson !important;
+    font-weight: 700 !important;
+}
+
+.post-detail{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.post-detail .Box{
+    width: 50%;
+    margin-bottom: 10px;
+  text-align: left !important;
+}
